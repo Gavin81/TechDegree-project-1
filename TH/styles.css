@@ -44,7 +44,6 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
     display: block;
     margin-right: auto;
@@ -174,7 +173,7 @@ a.social:hover {
 
 
 
-/* Styles for larger screens */
+/* Styles for larger screens such as tablets */
 @media screen and (min-width: 720px) {
 
   .flex {
