@@ -61,7 +61,25 @@ header {
     overflow: hidden;
     padding-top: 350px;
 }
-
+header .profile-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid turquoise;
+    transition: all .5s;
+  }
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(180deg);
+  }
+  .tag {
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+  }
 
 .card {
     margin: 20px;
