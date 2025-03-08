@@ -59,6 +59,8 @@ a:hover {
   color: white
 }
 
+
+/* Header CSS styles */
 header {
   text-align: center;
   background: url('SnowyHills.jpg') no-repeat top center ;
@@ -80,6 +82,9 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -124,27 +129,28 @@ ul.skills {
   background: #0399ff;
 }
 
+
+/* Footer CSS styles */
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
-
 footer .copyright {
   top: -8px;
   font-size: .75em;
 }
-
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 footer ul li {
   display: inline-block;
 }
 
+
+/* Links CSS styles */
 a.social {
   display: inline-block;
   text-indent: -9999px;
